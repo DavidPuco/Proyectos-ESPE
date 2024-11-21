@@ -1,0 +1,13 @@
+Informe
+Proceso de subida de un archivo a GitHub
+
+1. Primero se creó un archivo "Hola_mundo.txt" localmente con un mensaje.
+2. Se inicializó un repositorio Git en el sistema local.
+3. Se configuró Git con los datos del usuario.
+4. Se abrió la ruta del archivo
+5. Se procedió a dar click derecho y abrir Open Git Bash Here.
+6. Iniciamos la preparación del archivo con git init 
+7. Colocamos git add "Hola_mundo.txt" para cargar el archivo a subir.
+8. Se escribió git branch -M main.
+9. Se procedió a subir la ubicación donde estará en github: $ git remote add origin https://github.com/DavidPuco/Proyectos-ESPE.git
+10.Finalmente el archivo fue subido a GitHub mediante el comando git push -u origin main.
